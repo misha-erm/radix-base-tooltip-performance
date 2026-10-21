@@ -3,7 +3,7 @@ import * as TooltipPrimitive from "@radix-ui/react-tooltip";
 // import * as ContextMenuPrimitive from "@radix-ui/react-context-menu";
 import { useState } from "react";
 import afterFrame from "afterframe";
-import { Tooltip as BaseTooltip } from "@base-ui-components/react";
+import { Tooltip as BaseTooltip } from "@base-ui/react/tooltip";
 
 function measureInteraction() {
   const startTimestamp = performance.now();
